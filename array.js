@@ -48,7 +48,7 @@ console.log(sortedWord);
 
 let fruits = ["Mango", "pineapple", "kiwi", "Banana", "Watermelon", "Passion", "Orange", "Avocado", "Pears", "Grapes"];
 
-fruits.splice(4, 0, "Tomato");
+fruits.splice(5, 0, "Tomato");
 
 console.log(fruits);
  
