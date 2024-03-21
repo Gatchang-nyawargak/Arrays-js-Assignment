@@ -1,0 +1,188 @@
+.container{ 
+    display: flex;
+    justify-content: space-evenly;
+}
+.whole{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#btn{
+    background-color: pink;
+    color: white;
+    border-radius: 20px;
+}
+.btn{
+    padding: 2px 5px;
+    background-color: white;
+    border-radius: 22px;
+    
+}
+.b{
+    display: flex;
+}
+
+.input{
+    width: 20px;
+    
+}
+.nav{
+    display: flex;
+    gap: 30px;
+}
+.con1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 22px;
+}
+#parag{
+    
+    padding-left: 80px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons{
+    width: 60px;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 1px;
+    background-color: rgb(5, 5, 33);
+    color: azure;
+}
+.ico{
+    display: flex;
+
+    color: antiquewhite;
+}
+.border{
+    display: flex;
+    justify-content: space-evenly;
+}
+.illust{
+    display: flex;
+    justify-content: space-evenly;
+}
+#illust{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+}
+
+#pic1{
+    width: 300px;
+}
+.para{
+    justify-content: center;
+    align-self:center;
+}
+.testimony{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic{
+    width: 100px;
+    border-radius: 500px;
+}
+#batton{
+    background-color: blueviolet;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .con1 {
+        flex-direction: column;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .icon {
+        flex-direction: column;
+    }
+    .img{
+        width: 160px;
+    }
+    #pic1{
+        width: 150px;
+    }
+    .foot {
+        flex-direction: column;
+    }
+    .border {
+        flex-direction: column;
+    }
+    .illust {
+        flex-direction: column;
+    }
+    .testimony {
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+    .nav {
+        flex-direction: row;
+    }
+    .con1 {
+        flex-direction: row;
+    }
+    .buttons {
+        flex-direction: row;
+    }
+    .icon {
+        flex-direction: row;
+    }
+    .foot {
+        flex-direction: row;
+    }
+    .border {
+        flex-direction: row;
+    }
+    .illust {
+        flex-direction: row;
+    }
+    .testimony {
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+        flex-direction: row;
+    }
+    .nav {
+        flex-direction: row;
+    }
+    .con1 {
+        flex-direction: row;
+    }
+    .buttons {
+        flex-direction: row;
+    }
+    .icon {
+        flex-direction: row;
+    }
+    .foot {
+        flex-direction: row;
+    }
+    .border {
+        flex-direction: row;
+    }
+    .illust {
+        flex-direction: row;
+    }
+    .testimony {
+        flex-direction: row;
+    }
+}
